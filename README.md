@@ -5,7 +5,7 @@ See photo of prototype of faceplate
 
 - This project is not ready for production
 - The board is based on Freetronics EtherMegaR3 (https://github.com/freetronics/EtherMega)
-- Spec as per EtherMega with following changes
+- Spec as per EtherMega with following changes (not yet implemented!)
  - **Inclusion of 7 LED tactile switches, a click rotary encoder, and OLED display, for controlling home automation hub by MQTT**
  - Change form factor to better fit a double wall socket back box - dry lining box and metal back box
  - Removal of SD card to save space
