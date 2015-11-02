@@ -63,6 +63,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -5737,6 +5738,283 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 </deviceset>
 </devicesets>
 </library>
+<library name="RSJ-PB614">
+<packages>
+<package name="PB614">
+<description>RSJ Electronics&lt;br /&gt;
+PB614 LED Illuminated Tactile Switch Package</description>
+<wire x1="-3.152" y1="-2.79" x2="3.152" y2="-2.79" width="0.127" layer="21"/>
+<wire x1="3.152" y1="-2.79" x2="3.152" y2="2.79" width="0.127" layer="21"/>
+<wire x1="3.152" y1="2.79" x2="-3.152" y2="2.79" width="0.127" layer="21"/>
+<wire x1="-3.152" y1="2.79" x2="-3.152" y2="-2.79" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.8" width="0.127" layer="21"/>
+<pad name="2" x="-2.54" y="-2.54" drill="0.8" shape="square"/>
+<pad name="4" x="2.54" y="-2.54" drill="0.8" shape="square"/>
+<text x="-3.008" y="4.182" size="1.27" layer="25">&gt;NAME</text>
+<text x="2.992" y="-4.174" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="2.54" drill="0.8" shape="square"/>
+<pad name="3" x="2.54" y="2.54" drill="0.8" shape="square"/>
+<pad name="L-" x="0" y="2.7" drill="0.8" shape="square"/>
+<pad name="L+" x="0" y="-2.7" drill="0.8" shape="square"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<hole x="-2.54" y="0" drill="0.6"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PB614">
+<description>PB614 Illuminated tactile switch</description>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="2.54" visible="pin" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="-2.54" visible="pin" length="short" direction="pas"/>
+<pin name="+" x="-5.08" y="0" visible="pin" length="short" direction="pas"/>
+<pin name="2" x="10.16" y="2.54" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="-" x="10.16" y="0" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="10.16" y="-2.54" visible="pin" length="short" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="97"/>
+<wire x1="0" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="97"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="0" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.016" width="0.254" layer="97"/>
+<wire x1="0" y1="-1.016" x2="-1.778" y2="0.762" width="0.254" layer="97"/>
+<wire x1="0" y1="2.54" x2="0" y2="0.762" width="0.254" layer="97"/>
+<wire x1="7.62" y1="0" x2="3.81" y2="0" width="0.254" layer="97"/>
+<wire x1="3.81" y1="0" x2="2.54" y2="1.27" width="0.254" layer="97"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="97"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.016" width="0.254" layer="97"/>
+<wire x1="2.54" y1="-1.016" x2="3.556" y2="0" width="0.254" layer="97"/>
+<wire x1="2.54" y1="0" x2="-2.286" y2="0" width="0.254" layer="97"/>
+<wire x1="3.556" y1="1.016" x2="3.81" y2="1.27" width="0.254" layer="97"/>
+<wire x1="3.81" y1="0.508" x2="4.064" y2="0.762" width="0.254" layer="97"/>
+<wire x1="3.556" y1="1.524" x2="4.064" y2="1.524" width="0.254" layer="97"/>
+<wire x1="4.064" y1="1.524" x2="4.064" y2="1.27" width="0.254" layer="97"/>
+<wire x1="4.064" y1="1.016" x2="4.318" y2="1.016" width="0.254" layer="97"/>
+<wire x1="4.318" y1="1.016" x2="4.318" y2="0.762" width="0.254" layer="97"/>
+<wire x1="3.81" y1="-0.508" x2="3.81" y2="0.762" width="0.254" layer="97"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PB614">
+<gates>
+<gate name="G$1" symbol="PB614" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PB614">
+<connects>
+<connect gate="G$1" pin="+" pad="L+"/>
+<connect gate="G$1" pin="-" pad="L-"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Mat-Library">
+<packages>
+<package name="ER-OLED-M032-1W">
+<description>OLED Display Screen ER-OLED-M032-1W</description>
+<wire x1="-49.75" y1="-17.68" x2="-49.75" y2="15.82" width="0.127" layer="21"/>
+<wire x1="-49.75" y1="15.82" x2="50.75" y2="15.82" width="0.127" layer="21"/>
+<wire x1="50.75" y1="15.82" x2="50.75" y2="-17.68" width="0.127" layer="21"/>
+<wire x1="50.75" y1="-17.68" x2="-49.75" y2="-17.68" width="0.127" layer="21"/>
+<pad name="16" x="49" y="8.21" drill="0.8" shape="square"/>
+<pad name="15" x="46.46" y="8.21" drill="0.8" shape="square"/>
+<hole x="47.5" y="-15.18" drill="3"/>
+<hole x="47.5" y="13.32" drill="3"/>
+<hole x="-47.5" y="-15.18" drill="3"/>
+<hole x="-47.5" y="13.32" drill="3"/>
+<pad name="14" x="49" y="5.67" drill="0.8" shape="square"/>
+<pad name="13" x="46.46" y="5.67" drill="0.8" shape="square"/>
+<pad name="12" x="49" y="3.13" drill="0.8" shape="square"/>
+<pad name="11" x="46.46" y="3.13" drill="0.8" shape="square"/>
+<pad name="10" x="49" y="0.59" drill="0.8" shape="square"/>
+<pad name="9" x="46.46" y="0.59" drill="0.8" shape="square"/>
+<pad name="8" x="49" y="-1.95" drill="0.8" shape="square"/>
+<pad name="7" x="46.46" y="-1.95" drill="0.8" shape="square"/>
+<pad name="5" x="46.46" y="-4.49" drill="0.8" shape="square"/>
+<pad name="4" x="49" y="-7.03" drill="0.8" shape="square"/>
+<pad name="2" x="49" y="-9.57" drill="0.8" shape="square"/>
+<pad name="1" x="46.46" y="-9.57" drill="0.8" shape="square"/>
+<wire x1="-45.25" y1="-14.88" x2="-45.25" y2="13.92" width="0.127" layer="21"/>
+<wire x1="-44.75" y1="14.42" x2="44.25" y2="14.42" width="0.127" layer="21"/>
+<wire x1="44.75" y1="13.92" x2="44.75" y2="-14.88" width="0.127" layer="21"/>
+<wire x1="44.25" y1="-15.38" x2="32.25" y2="-15.38" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="-15.38" x2="-44.75" y2="-15.38" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="-15.38" x2="-30.75" y2="-16.38" width="0.127" layer="21"/>
+<wire x1="-30.75" y1="-16.38" x2="31.25" y2="-16.38" width="0.127" layer="21"/>
+<wire x1="31.25" y1="-16.38" x2="32.25" y2="-15.38" width="0.127" layer="21"/>
+<wire x1="44.25" y1="14.42" x2="44.25" y2="13.92" width="0.127" layer="21"/>
+<wire x1="44.25" y1="13.92" x2="44.75" y2="13.92" width="0.127" layer="21"/>
+<wire x1="44.25" y1="-15.38" x2="44.25" y2="-14.88" width="0.127" layer="21"/>
+<wire x1="44.25" y1="-14.88" x2="44.75" y2="-14.88" width="0.127" layer="21"/>
+<wire x1="-44.75" y1="-15.38" x2="-44.75" y2="-14.88" width="0.127" layer="21"/>
+<wire x1="-44.75" y1="-14.88" x2="-45.25" y2="-14.88" width="0.127" layer="21"/>
+<wire x1="-44.75" y1="14.42" x2="-44.75" y2="13.92" width="0.127" layer="21"/>
+<wire x1="-44.75" y1="13.92" x2="-45.25" y2="13.92" width="0.127" layer="21"/>
+<wire x1="-39.4" y1="-9.76" x2="-39.4" y2="11.42" width="0.127" layer="21"/>
+<wire x1="-39.4" y1="11.42" x2="39.4" y2="11.42" width="0.127" layer="21"/>
+<wire x1="39.4" y1="11.42" x2="39.4" y2="-9.76" width="0.127" layer="21"/>
+<wire x1="39.4" y1="-9.76" x2="-39.4" y2="-9.76" width="0.127" layer="21"/>
+<text x="-46.45" y="-20.08" size="1.27" layer="49">&gt; NAME</text>
+<hole x="46.46" y="-7.03" drill="0.8"/>
+<hole x="49" y="-4.49" drill="0.8"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ER-OLEDM032-1W">
+<description>Oled display screen ER-OLEDM032-1W</description>
+<wire x1="-7.62" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="-7.62" visible="pin" length="middle"/>
+<pin name="5" x="-10.16" y="-2.54" visible="off" length="middle"/>
+<pin name="7" x="-10.16" y="0" visible="off" length="middle"/>
+<pin name="9" x="-10.16" y="2.54" visible="off" length="middle"/>
+<pin name="11" x="-10.16" y="5.08" visible="off" length="middle"/>
+<pin name="13" x="-10.16" y="7.62" visible="off" length="middle"/>
+<pin name="15" x="-10.16" y="10.16" visible="off" length="middle"/>
+<pin name="2" x="10.16" y="-7.62" visible="off" length="middle" rot="R180"/>
+<pin name="4" x="10.16" y="-5.08" visible="off" length="middle" rot="R180"/>
+<pin name="8" x="10.16" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="10" x="10.16" y="2.54" visible="off" length="middle" rot="R180"/>
+<pin name="12" x="10.16" y="5.08" visible="off" length="middle" rot="R180"/>
+<pin name="14" x="10.16" y="7.62" visible="off" length="middle" rot="R180"/>
+<pin name="16" x="10.16" y="10.16" visible="pin" length="middle" rot="R180"/>
+<text x="2.54" y="-15.24" size="1.27" layer="94">&gt; NAME</text>
+<text x="-7.62" y="16.002" size="1.27" layer="95">ER-OLEDM032-1W</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ER-OLED-M032-1W">
+<description>256x64 White OLED from buydisplay.com. ER-OLED-M032-1W
+ER = East Rising (Manufacturer)
+OLED = OLED
+M = module - this is the product with the driver board</description>
+<gates>
+<gate name="G$1" symbol="ER-OLEDM032-1W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ER-OLED-M032-1W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="switch-alps">
+<description>ALPS Switch from Markus Faust &amp;lt;mfaust@htwm.de&amp;gt;&lt;p&gt;
+Source: EC12E.scr from eagle.support.ger on news.cadsoft.de at 08.10.2007</description>
+<packages>
+<package name="ALPS_EC12E_SW">
+<description>ALPS rotary encoder&lt;br&gt;
+EC12E series with push-on switch</description>
+<wire x1="-6.2" y1="-6.6" x2="6.2" y2="-6.6" width="0.127" layer="21"/>
+<wire x1="6.2" y1="-6.6" x2="6.2" y2="6.6" width="0.127" layer="21"/>
+<wire x1="6.2" y1="6.6" x2="-6.2" y2="6.6" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="6.6" x2="-6.2" y2="-6.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="1.5" x2="2.6" y2="1.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
+<pad name="A" x="-2.5" y="-7.5" drill="1" shape="square"/>
+<pad name="C" x="0" y="-7.5" drill="1" shape="square"/>
+<pad name="B" x="2.5" y="-7.5" drill="1" shape="square"/>
+<pad name="D" x="-2.5" y="7" drill="1" shape="square"/>
+<pad name="E" x="2.5" y="7" drill="1" shape="square"/>
+<text x="-2.5" y="8.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="3.5" y="-9" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+<hole x="-6.1" y="0" drill="3.2"/>
+<hole x="6.1" y="0" drill="3.2"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ENCODER">
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="4.1275" width="0.3048" layer="94"/>
+<wire x1="-2.54" y1="4.1275" x2="-0.9525" y2="1.905" width="0.3048" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-2.54" y2="1.905" width="0.3048" layer="94"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="0" width="0.3048" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="4.1275" width="0.3048" layer="94"/>
+<wire x1="2.54" y1="4.1275" x2="4.1275" y2="1.905" width="0.3048" layer="94"/>
+<wire x1="3.175" y1="1.905" x2="2.54" y2="1.905" width="0.3048" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="0" width="0.3048" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="0.5679" width="0" layer="94"/>
+<text x="-3.81" y="0" size="1.27" layer="95" rot="R90">&gt;PART</text>
+<text x="6.35" y="0" size="1.27" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="C" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="-2.54" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="B" x="2.54" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="TASTER">
+<wire x1="-2.54" y1="0" x2="-1.5875" y2="0" width="0.3048" layer="94"/>
+<wire x1="-1.5875" y1="0" x2="0.635" y2="1.5875" width="0.3048" layer="94"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="0" width="0.3048" layer="94"/>
+<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.3048" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="3.81" width="0.127" layer="94" style="shortdash"/>
+<wire x1="-0.635" y1="3.81" x2="0.635" y2="3.81" width="0.127" layer="94"/>
+<wire x1="-0.635" y1="3.81" x2="-0.635" y2="3.4925" width="0.127" layer="94"/>
+<wire x1="0.635" y1="3.81" x2="0.635" y2="3.4925" width="0.127" layer="94"/>
+<text x="-5.08" y="5.08" size="1.27" layer="95">&gt;PART</text>
+<text x="-5.08" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="EC12E_SW" prefix="SW">
+<description>ALPS rotary Encoder EC12E series with switch</description>
+<gates>
+<gate name="G$1" symbol="ENCODER" x="-10.16" y="-2.54" addlevel="always"/>
+<gate name="G$2" symbol="TASTER" x="10.16" y="5.08" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="ALPS_EC12E_SW">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$2" pin="1" pad="D"/>
+<connect gate="G$2" pin="2" pad="E"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="EC12E2424407" constant="no"/>
+<attribute name="OC_FARNELL" value="1520813" constant="no"/>
+<attribute name="OC_NEWARK" value="74M1068" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5838,6 +6116,15 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <part name="R15" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="4K7"/>
 <part name="SJ5" library="freetronics-jon" deviceset="SJC" device="N" value=""/>
 <part name="SJ6" library="freetronics-jon" deviceset="SJC" device="N" value=""/>
+<part name="BTN_FAVE1" library="RSJ-PB614" deviceset="PB614" device=""/>
+<part name="BTN_FAVE2" library="RSJ-PB614" deviceset="PB614" device=""/>
+<part name="BTN_FAVE3" library="RSJ-PB614" deviceset="PB614" device=""/>
+<part name="BTN_FAVE4" library="RSJ-PB614" deviceset="PB614" device=""/>
+<part name="BTN_FAVE5" library="RSJ-PB614" deviceset="PB614" device=""/>
+<part name="BTN_MODE" library="RSJ-PB614" deviceset="PB614" device=""/>
+<part name="BTN_OFF" library="RSJ-PB614" deviceset="PB614" device=""/>
+<part name="U$1" library="Mat-Library" deviceset="ER-OLED-M032-1W" device=""/>
+<part name="SW1" library="switch-alps" deviceset="EC12E_SW" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5920,6 +6207,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <text x="467.36" y="307.34" size="1.778" layer="97">I2C Addr: 70 (0x50)</text>
 <wire x1="416.56" y1="59.69" x2="416.56" y2="21.59" width="0.4064" layer="97" style="longdash"/>
 <wire x1="462.28" y1="69.85" x2="417.83" y2="69.85" width="0.4064" layer="97" style="longdash"/>
+<wire x1="25.4" y1="198.12" x2="25.4" y2="363.22" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="C26" gate="G$1" x="142.24" y="39.37" smashed="yes">
@@ -6158,6 +6446,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 </instance>
 <instance part="SJ5" gate="G$1" x="449.58" y="297.18"/>
 <instance part="SJ6" gate="G$1" x="449.58" y="289.56"/>
+<instance part="BTN_FAVE1" gate="G$1" x="40.64" y="208.28"/>
+<instance part="BTN_FAVE2" gate="G$1" x="40.64" y="220.98"/>
+<instance part="BTN_FAVE3" gate="G$1" x="40.64" y="233.68"/>
+<instance part="BTN_FAVE4" gate="G$1" x="40.64" y="246.38"/>
+<instance part="BTN_FAVE5" gate="G$1" x="40.64" y="259.08"/>
+<instance part="BTN_MODE" gate="G$1" x="40.64" y="271.78"/>
+<instance part="BTN_OFF" gate="G$1" x="40.64" y="284.48"/>
+<instance part="U$1" gate="G$1" x="93.98" y="236.22"/>
+<instance part="SW1" gate="G$1" x="78.74" y="284.48"/>
+<instance part="SW1" gate="G$2" x="99.06" y="292.1"/>
 </instances>
 <busses>
 </busses>
