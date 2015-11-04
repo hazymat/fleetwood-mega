@@ -3538,6 +3538,62 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.4064" layer="1"/>
 <wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.3048" layer="51"/>
 </package>
+<package name="SO08T">
+<circle x="-2.286" y="2.794" radius="0.1524" width="0.3048" layer="21"/>
+<wire x1="1.9" y1="-2.4" x2="-1.4" y2="-2.4" width="0.2032" layer="51"/>
+<wire x1="-1.4" y1="-2.4" x2="-1.9" y2="-2.4" width="0.2032" layer="51"/>
+<wire x1="-1.9" y1="-2.4" x2="-1.9" y2="2.4" width="0.2032" layer="51"/>
+<wire x1="-1.9" y1="2.4" x2="-1.4" y2="2.4" width="0.2032" layer="51"/>
+<wire x1="-1.4" y1="2.4" x2="1.9" y2="2.4" width="0.2032" layer="51"/>
+<wire x1="1.9" y1="2.4" x2="1.9" y2="-2.4" width="0.2032" layer="51"/>
+<wire x1="-1.4" y1="-2.4" x2="-1.4" y2="2.4" width="0.2032" layer="51"/>
+<rectangle x1="-2.795" y1="1.355" x2="-2.305" y2="2.455" layer="51" rot="R270"/>
+<rectangle x1="-2.795" y1="0.085" x2="-2.305" y2="1.185" layer="51" rot="R270"/>
+<rectangle x1="-2.795" y1="-1.185" x2="-2.305" y2="-0.085" layer="51" rot="R270"/>
+<rectangle x1="-2.795" y1="-2.455" x2="-2.305" y2="-1.355" layer="51" rot="R270"/>
+<rectangle x1="2.305" y1="-2.455" x2="2.795" y2="-1.355" layer="51" rot="R270"/>
+<rectangle x1="2.305" y1="-1.185" x2="2.795" y2="-0.085" layer="51" rot="R270"/>
+<rectangle x1="2.305" y1="0.085" x2="2.795" y2="1.185" layer="51" rot="R270"/>
+<rectangle x1="2.305" y1="1.355" x2="2.795" y2="2.455" layer="51" rot="R270"/>
+<smd name="1" x="-2.6" y="1.905" dx="0.6" dy="1.905" layer="1" rot="R270"/>
+<smd name="2" x="-2.6" y="0.635" dx="0.6" dy="1.905" layer="1" rot="R270"/>
+<smd name="3" x="-2.6" y="-0.635" dx="0.6" dy="1.905" layer="1" rot="R270"/>
+<smd name="4" x="-2.6" y="-1.905" dx="0.6" dy="1.905" layer="1" rot="R270"/>
+<smd name="5" x="2.6" y="-1.905" dx="0.6" dy="1.905" layer="1" rot="R270"/>
+<smd name="6" x="2.6" y="-0.635" dx="0.6" dy="1.905" layer="1" rot="R270"/>
+<smd name="7" x="2.6" y="0.635" dx="0.6" dy="1.905" layer="1" rot="R270"/>
+<smd name="8" x="2.6" y="1.905" dx="0.6" dy="1.905" layer="1" rot="R270"/>
+<smd name="9" x="0" y="0" dx="2.0574" dy="2.0574" layer="1" rot="R180"/>
+<text x="-1.905" y="2.667" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.937" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOP-8">
+<description>SOP-8</description>
+<circle x="-1.4" y="1.8" radius="0.3592" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-2.5" x2="2.2" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.2" y1="-2.5" x2="2.2" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-2.5" x2="-2.2" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="-2.5" x2="2.2" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="2.2" y1="1.15" x2="2.2" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="1.15" x2="-2.2" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="-0.15" x2="-2.2" y2="0.15" width="0.2032" layer="21"/>
+<wire x1="2.2" y1="-0.15" x2="2.2" y2="0.15" width="0.2032" layer="21"/>
+<wire x1="2.2" y1="-1.15" x2="2.2" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="-1.15" x2="-2.2" y2="-1.4" width="0.2032" layer="21"/>
+<smd name="1" x="-2.75" y="1.905" dx="1" dy="0.5" layer="1"/>
+<smd name="2" x="-2.75" y="0.635" dx="1" dy="0.5" layer="1"/>
+<smd name="3" x="-2.75" y="-0.635" dx="1" dy="0.5" layer="1"/>
+<smd name="4" x="-2.75" y="-1.905" dx="1" dy="0.5" layer="1"/>
+<smd name="5" x="2.75" y="-1.905" dx="1" dy="0.5" layer="1"/>
+<smd name="6" x="2.75" y="-0.635" dx="1" dy="0.5" layer="1"/>
+<smd name="7" x="2.75" y="0.635" dx="1" dy="0.5" layer="1"/>
+<smd name="8" x="2.75" y="1.905" dx="1" dy="0.5" layer="1"/>
+<smd name="9" x="0" y="0" dx="2.0574" dy="2.0574" layer="1" rot="R180"/>
+<text x="-2.54" y="2.794" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.016" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="HY931147C">
@@ -3889,6 +3945,23 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.4064" layer="94"/>
 </symbol>
+<symbol name="EUP34XX">
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="BS" x="-15.24" y="7.62" length="middle"/>
+<pin name="COMP" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="EN" x="15.24" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="FB" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND" x="-15.24" y="-7.62" length="middle" direction="pwr"/>
+<pin name="IN" x="-15.24" y="2.54" length="middle" direction="pwr"/>
+<pin name="SS" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="SW" x="-15.24" y="-2.54" length="middle"/>
+<pin name="TGND" x="0" y="-15.24" length="middle" direction="pwr" rot="R90"/>
+<text x="-3.81" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="0" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HY931147C">
@@ -3957,6 +4030,45 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EUP3476">
+<gates>
+<gate name="G$1" symbol="EUP34XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SO08T" package="SO08T">
+<connects>
+<connect gate="G$1" pin="BS" pad="1"/>
+<connect gate="G$1" pin="COMP" pad="6"/>
+<connect gate="G$1" pin="EN" pad="7"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="SS" pad="8"/>
+<connect gate="G$1" pin="SW" pad="3"/>
+<connect gate="G$1" pin="TGND" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOP-8" package="SOP-8">
+<connects>
+<connect gate="G$1" pin="BS" pad="1"/>
+<connect gate="G$1" pin="COMP" pad="6"/>
+<connect gate="G$1" pin="EN" pad="7"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="SS" pad="8"/>
+<connect gate="G$1" pin="SW" pad="3"/>
+<connect gate="G$1" pin="TGND" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6254,7 +6366,6 @@ EC12E series with push-on switch</description>
 <part name="SJ2" library="jumper" deviceset="SJ" device="" value="UBOOT"/>
 <part name="GND35" library="SparkFun" deviceset="GND" device=""/>
 <part name="R7" library="freetronics-marc" deviceset="RESISTOR" device="0603" value="1M 0603"/>
-<part name="RN2" library="freetronics-master-v1" deviceset="4R-N" device="CAY16" value="1K"/>
 <part name="RN5" library="freetronics-master-v1" deviceset="4R-N" device="CAY16" value="49R9 1%"/>
 <part name="C9" library="freetronics-marc" deviceset="CAP" device="0603" value="1uF 0603"/>
 <part name="RN4" library="freetronics-master-v1" deviceset="4R-N" device="CAY16" value="10K"/>
@@ -6311,6 +6422,9 @@ EC12E series with push-on switch</description>
 <part name="R32" library="freetronics-marc" deviceset="RESISTOR" device="0603" value="100R"/>
 <part name="R33" library="freetronics-marc" deviceset="RESISTOR" device="0603" value="100R"/>
 <part name="R34" library="freetronics-marc" deviceset="RESISTOR" device="0603" value="100R"/>
+<part name="RN2A" library="freetronics-marc" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="RN2B" library="freetronics-marc" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="U$1" library="freetronics-jon" deviceset="EUP3476" device="SO08T"/>
 </parts>
 <sheets>
 <sheet>
@@ -6549,8 +6663,6 @@ EC12E series with push-on switch</description>
 <attribute name="NAME" x="434.848" y="86.5886" size="1.778" layer="95"/>
 <attribute name="VALUE" x="434.848" y="83.312" size="1.778" layer="96"/>
 </instance>
-<instance part="RN2" gate="A" x="93.98" y="96.52"/>
-<instance part="RN2" gate="B" x="93.98" y="88.9"/>
 <instance part="RN5" gate="A" x="104.14" y="63.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="102.108" y="60.96" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="102.108" y="68.58" size="1.778" layer="96" rot="R90"/>
@@ -6724,6 +6836,15 @@ EC12E series with push-on switch</description>
 <attribute name="NAME" x="62.23" y="280.4414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="62.23" y="282.702" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="RN2A" gate="G$1" x="93.98" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="97.79" y="92.4814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="97.79" y="94.742" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="RN2B" gate="G$1" x="93.98" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="97.79" y="84.8614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="97.79" y="87.122" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="U$1" gate="G$1" x="340.36" y="149.86"/>
 </instances>
 <busses>
 </busses>
@@ -7499,7 +7620,7 @@ EC12E series with push-on switch</description>
 <segment>
 <wire x1="99.06" y1="88.9" x2="113.03" y2="88.9" width="0.1524" layer="91"/>
 <label x="102.87" y="88.9" size="1.778" layer="95"/>
-<pinref part="RN2" gate="B" pin="2"/>
+<pinref part="RN2B" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="200.66" y1="119.38" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
@@ -7525,7 +7646,7 @@ EC12E series with push-on switch</description>
 <segment>
 <wire x1="99.06" y1="96.52" x2="113.03" y2="96.52" width="0.1524" layer="91"/>
 <label x="102.87" y="96.52" size="1.778" layer="95"/>
-<pinref part="RN2" gate="A" pin="2"/>
+<pinref part="RN2A" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="XTLP" class="0">
@@ -7564,7 +7685,7 @@ EC12E series with push-on switch</description>
 <segment>
 <wire x1="88.9" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="Y-"/>
-<pinref part="RN2" gate="B" pin="1"/>
+<pinref part="RN2B" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="TXON" class="0">
@@ -7585,7 +7706,7 @@ EC12E series with push-on switch</description>
 <segment>
 <wire x1="73.66" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="G-"/>
-<pinref part="RN2" gate="A" pin="1"/>
+<pinref part="RN2A" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$68" class="0">
