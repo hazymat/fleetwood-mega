@@ -1,7 +1,10 @@
 # fleetwood-mega
 Eagle files for Version 2 of Fleetwood hardware.
 
-Hi reader! The PCB in this project is not ready for production. Parts have not been finalised, traces not yet routed. It's a work in progress. Contributors welcome.
+Hi reader! The PCB in this project is not ready for production. Parts have not been finalised, traces not yet routed. It's a work in progress.
+
+Latest YouTube project update here: https://www.youtube.com/watch?v=HE-3FGcSKfI
+YouTube channel generally full of my MQTT ramblings here: https://www.youtube.com/user/hazymat
 
 Do take a look at the photo of Fleetwood's first prototype installed in the home, included in the repo.
 
