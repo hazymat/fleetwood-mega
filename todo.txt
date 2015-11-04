@@ -1,0 +1,20 @@
+todo [brainstorm format. i.e. no format.]
+
+- add back the regulator based on SOP-8 package version of the EUP regulator chip - minus the 2.1mm jack and diode which aren't needed in fleetwood. the chip provides 3A of power! thanks to James M for pointing that out :)
+
+- add back the external PoE supply interface (to allow for selection between 802.3af PoE and passive PoE using above onboard buck converter).
+
+- replace multiple 0603 resistors with resistor networks where possible, to save fiddly soldering and routing
+
+- introduce additional mounting holes to board dimensions and panel front and rear covers
+
+- introduce fleetwood's MPR121 prox sensor chip
+
+- finally figure out how to connect electrode to front panel
+
+- finally figure out how to interface with external sensors (e.g. Fleetwood as a sensor hub in each room).
+ - James M suggests onewire.
+  - how to send lux and other digital data down the line?
+  - in the fleetwood sketch, how does this affect timing?
+  - ... etc.
+
